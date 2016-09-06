@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.gauche {
+  float: left;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 7rem;
+  text-align: center;
+  margin: 50px 0;
+  color: rgb(159, 78, 3);
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b4450;
+}
+
+p {
+  margin: 10px 50px;
+}
+
+#logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#linkedin {
+  font-size: 1.5rem;
+}
+
+#twitter {
+  font-size: 1.5rem;
+}
+
+#vimeo {
+  font-size: 1.5rem;
+}
+
+#github {
+  font-size: 1.5rem;
+}
+
+.fonta {
+  color: #2b4450;
+  margin: 10px 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b4450;
+}
+
+li {
+    float: right;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(167, 165, 166);
+}
+
+.active {
+    background-color: rgb(159, 78, 3);
+    font-size: 1.25rem;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.rond {
+  height: 220px;
+  width: 220px;
+  border: 1px solid #2b4450;
+  border-radius: 100%;
+  margin: 50px 30px;
+}
+
+.rond:hover {
+  box-shadow: inset 0 0 0 0px rgb(49, 72, 89);
+  transition: box-shadow 0.1s;
+  transition-property: box-shadow;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+/*----------FORMULAIRE DE CONTACT----------*/
+
+form {
+  width: 50%;
+  margin: 40px auto;
+}
+
+#zonetexte {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+}
+
+input[type=text] {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type=text]:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+textarea {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+}
+
+#envoyer {
+  background-color: rgb(210, 210, 210);
+  color: black;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  padding: 10px;
+}
+
+#envoyer:hover {
+  background-color: #e7e7e7;
+}
+
+.downnavbar {
+  display: none;
+}

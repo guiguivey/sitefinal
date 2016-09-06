@@ -1,0 +1,348 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    h1 {
+      font-size: 11rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+
+    #container {
+      flex-direction: column;
+    }
+
+    #logos {
+      margin: 30px 0;
+    }
+
+    #linkedin {
+      font-size: 4rem;
+    }
+
+    #twitter {
+      font-size: 4rem;
+    }
+
+    #vimeo {
+      font-size: 4rem;
+    }
+
+    #github {
+      font-size: 4rem;
+    }
+
+    .rond {
+      width: 550px;
+      height: 550px;
+    }
+
+    .responsif {
+      display: none;
+    }
+
+    h3 {
+      font-size: 3rem;
+    }
+
+    .textform {
+      font-size: 1.5rem;
+    }
+
+    form input {
+      font-size: 1.5rem;
+    }
+
+    .downnavbar {
+      display: flex;
+      flex-direction: column;
+      font-size: 2.5rem;
+    }
+
+    .downnavbar li {
+      line-height: 80px;
+    }
+
+    .downnavbar .active {
+      font-size: 3rem;
+    }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #container {
+      flex-direction: column;
+    }
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 0 50px;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    li a {
+      font-size: 1.5rem;
+    }
+
+    .rond {
+      height: 440px;
+      width: 440px;
+    }
+
+    #linkedin {
+      font-size: 4.5rem;
+    }
+
+    #twitter {
+      font-size: 4.5rem;
+    }
+
+    #vimeo {
+      font-size: 4.5rem;
+    }
+
+    #github {
+      font-size: 4.5rem;
+    }
+
+    .textform {
+      font-size: 1.25em;
+    }
+
+    form input {
+      font-size: 1.25rem;
+    }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #container {
+      flex-direction: column;
+    }
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    #container {
+      flex-direction: column;
+    }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+    .rond {
+      height: 300px;
+      width: 400px;
+    }
+
+}
+
+  /* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2) {
+
+    #container {
+      flex-direction: column;
+    }
+}
+
+  /* Portrait */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+  /* Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+}
+
+  /* ----------- Galaxy S4 ----------- */
+
+  /* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+    #container {
+      flex-direction: column;
+    }
+}
+
+  /* Portrait */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+}
+
+    /* Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+}
+
+  /* ----------- Galaxy S5 ----------- */
+
+  /* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+    #container {
+      flex-direction: column;
+    }
+}
+
+  /* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+}
+
+  /* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+}
+
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+    #container {
+      flex-direction: column;
+    }
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
