@@ -12,11 +12,11 @@ body {
 
 h1 {
   font-weight: normal;
-  font-family: 'Hanalei Fill', cursive;
+  font-family: 'Freckle Face', cursive;
   font-size: 7rem;
   text-align: center;
   margin: 50px 0;
-  color: rgb(159, 78, 3);
+  color: #4cb648;
 }
 
 h2 {
@@ -29,6 +29,7 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #2b4450;
+  margin: 100px 0;
 }
 
 p {
@@ -40,22 +41,23 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
 }
 
 #linkedin {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 #twitter {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 #vimeo {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 #github {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .fonta {
@@ -91,7 +93,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: rgb(159, 78, 3);
+    background-color: #4cb648;
     font-size: 1.25rem;
 }
 
@@ -103,21 +105,77 @@ li a:hover:not(.active) {
   flex-wrap: wrap;
 }
 
+#blog {
+  background-image: url('../img/desktop/cerveau.png');
+  background-position: center;
+}
+
+#technobuvette {
+  background-image: url('../img/desktop/biere.png');
+  background-position: center;
+}
+
+#generateur {
+  background-image: url('../img/desktop/flamme.png');
+  background-position: center;
+}
+
+#cv {
+  background-image: url('../img/desktop/parchemin.png');
+  background-position: center;
+}
+
 .rond {
   height: 220px;
   width: 220px;
-  border: 1px solid #2b4450;
+  border: 1px solid black;
   border-radius: 100%;
-  margin: 50px 30px;
+  margin: 30px 30px;
+  transition: box-shadow 0.3s;
+  transition-timing-function: ease;
 }
 
 .rond:hover {
-  box-shadow: inset 0 0 0 0px rgb(49, 72, 89);
-  transition: box-shadow 0.1s;
-  transition-property: box-shadow;
-  transition-duration: 0.1s;
+  -moz-box-shadow: 0 0 0 15px rgb(255, 255, 255);
+  -webkit-box-shadow: 0 0 0 15px rgb(255, 255, 255);
+  box-shadow: inset 0 0 0 15px rgb(255, 255, 255);
+  transition: box-shadow 0.3s;
   transition-timing-function: ease;
-  transition-delay: 0s;
+}
+
+#competences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px 20px;
+}
+
+#competences h2 {
+  margin: 20px 0;
+}
+/*
+#bientot {
+  margin: 560px 0;
+  font-size: 3rem;
+}*/
+
+.ligne {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.colored {
+  font-size: 3rem;
+  margin: 0 10px;
+}
+
+footer {
+  text-align: center;
 }
 
 /*----------FORMULAIRE DE CONTACT----------*/
